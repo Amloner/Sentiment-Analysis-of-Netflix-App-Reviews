@@ -1,14 +1,14 @@
 # Sentiment-Analysis-of-User-Reviews
 Analyse customer reviews of the Netflix app
 
-## Techniques Employed
+### Techniques Employed
    * Sampling from imbalanced datasets using the imbalanced-learn package
    * Enquiring about the sentiment value of the reviews with the dictionary-based sentiment analysis tools, which are part of NLTK, a natural language processing toolkit, used in Python.
    * Analyzing the reviews with a state-of-the-art deep learning technique, namely with the DistilBERT model. To build this model, you will need to run Pytorch, transformers, and the simpletransformers packages.
    * Evaluating your model and creating descriptive statistics in Python with scikit-learn library.
   
    
-## Project Outline
+### Project Outline
 
 The project consists of four steps
    * Creating the dataset.
@@ -16,6 +16,24 @@ The project consists of four steps
    * Creating neural network-based sentiment analyzers.
    * Evaluating both the sentiment analyzers.
    * 
-## Dataset
+### Dataset
 
 The Amazon review dataset can be downloaded from [here](https://www.kaggle.com/datasets/ashishkumarak/netflix-reviews-playstore-daily-updated?resource=download).
+
+
+
+## Creating Dataset
+
+### Workflow
+
+   * Read the netflix app review data.
+   * Create a plot of the ratings of the product. Study the distribution of the categories.
+   * Take a random sample of the reviews by selecting 1500 reviews with rating 1, 500-500-500 reviews with ratings 2, 3, 4, and 1500 reviews with rating 5. This gives you a smaller balanced corpus.
+   * Take a random sample of the reviews by selecting 100,000 reviews, this gives you a bigger representative corpus.
+   * Export your corpora to two separate .csv files. Both of your tables should contain a column for the reviews and a column for the ratings.
+
+#### Distribution of entire reviews
+![Original_Dataset](https://github.com/Amloner/Sentiment-Analysis-of-User-Reviews/assets/124287518/6a2f7ff2-21ef-4862-a405-f6a03481edc9)
+
+#### Distribution of smaller balanced dataset
+![Undersampled_dataset](https://github.com/Amloner/Sentiment-Analysis-of-User-Reviews/assets/124287518/7262350a-6794-4134-903e-34255231cb37)
