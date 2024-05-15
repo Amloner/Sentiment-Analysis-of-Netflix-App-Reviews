@@ -2,16 +2,22 @@
 Both the sentiment analysers are validated against the actual ratings
 ## Visualising dataset
 ### Distribution of complete dataset
-![Original_Dataset](https://github.com/Amloner/Sentiment-Analysis-of-User-Reviews/assets/124287518/6a2f7ff2-21ef-4862-a405-f6a03481edc9)
+<img src="https://github.com/Amloner/Sentiment-Analysis-of-User-Reviews/assets/124287518/6a2f7ff2-21ef-4862-a405-f6a03481edc9" alt="image" width="400" height="auto">
+
 ### Distribution of smaller balanced dataset
-![Undersampled_dataset](https://github.com/Amloner/Sentiment-Analysis-of-User-Reviews/assets/124287518/7262350a-6794-4134-903e-34255231cb37)
+
+<img src="https://github.com/Amloner/Sentiment-Analysis-of-User-Reviews/assets/124287518/7262350a-6794-4134-903e-34255231cb37" alt="image" width="400" height="auto">
+
 ## Dictionary based classifer
 ### Count Plot
-![countPlot](https://github.com/Amloner/Sentiment-Analysis-of-User-Reviews/assets/124287518/5d120772-657d-418a-9c76-5b540ef7c0b9)
+<img src="https://github.com/Amloner/Sentiment-Analysis-of-User-Reviews/assets/124287518/5d120772-657d-418a-9c76-5b540ef7c0b9" alt="image" width="400" height="auto">
+
 ### Box Plot
-![boxPlot](https://github.com/Amloner/Sentiment-Analysis-of-User-Reviews/assets/124287518/82574744-dab0-4165-a36a-a50022276fc4)
+<img src="https://github.com/Amloner/Sentiment-Analysis-of-User-Reviews/assets/124287518/82574744-dab0-4165-a36a-a50022276fc4" alt="image" width="400" height="auto">
+
 ### Confusion Matrix
-![confusionMatrix](https://github.com/Amloner/Sentiment-Analysis-of-User-Reviews/assets/124287518/24dbe0cb-d1d3-42a5-8430-104b027843dc)
+<img src="https://github.com/Amloner/Sentiment-Analysis-of-User-Reviews/assets/124287518/24dbe0cb-d1d3-42a5-8430-104b027843dc" alt="image" width="400" height="auto">
+
 ### Report
 |                  | **precision**       | **recall**          | **f1-score**        | **support**        |
 | ---------------- | ------------------- | ------------------- | ------------------- | ------------------ |
@@ -24,11 +30,14 @@ Both the sentiment analysers are validated against the actual ratings
 
 ## Deep learning based classifer
 ### Count Plot
-![DcountPlot](https://github.com/Amloner/Sentiment-Analysis-of-User-Reviews/assets/124287518/70885b53-25b2-41d1-9e12-d2e97c41c7f5)
+<img src="https://github.com/Amloner/Sentiment-Analysis-of-User-Reviews/assets/124287518/70885b53-25b2-41d1-9e12-d2e97c41c7f5" alt="image" width="400" height="auto">
+
 ### Box Plot
-![DconfusionMatrix](https://github.com/Amloner/Sentiment-Analysis-of-User-Reviews/assets/124287518/f7ac2f26-78e7-4d7e-9d11-67e90c012326)
+<img src="https://github.com/Amloner/Sentiment-Analysis-of-User-Reviews/assets/124287518/bd609ff0-c402-4025-b458-8a4ccf37d8e8" alt="image" width="400" height="auto">
+
 ### Confusion Matrix
-![DboxPlot](https://github.com/Amloner/Sentiment-Analysis-of-User-Reviews/assets/124287518/bd609ff0-c402-4025-b458-8a4ccf37d8e8)
+<img src="https://github.com/Amloner/Sentiment-Analysis-of-User-Reviews/assets/124287518/f7ac2f26-78e7-4d7e-9d11-67e90c012326" alt="image" width="400" height="auto">
+
 ### Report
 |                  | **precision**       | **recall**         | **f1-score**       | **support**        |
 | ---------------- | ------------------- | ------------------ | ------------------ | ------------------ |
