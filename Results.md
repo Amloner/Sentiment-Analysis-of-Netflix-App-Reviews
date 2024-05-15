@@ -33,3 +33,6 @@ Both the sentiment analysers are validated against the actual ratings
 | **accuracy**     | 0.7584444444444450  | 0.7584444444444450 | 0.7584444444444450 | 0.7584444444444450 |
 | **macro avg**    | 0.6266579666106730  | 0.6183333333333330 | 0.6185953204491930 | 4500.0             |
 | **weighted avg** | 0.7651814821333500  | 0.7584444444444450 | 0.7566823054905650 | 4500.0             |
+
+## Summary
+The dictionary based classifier performed quite poorly compared to the deep learning model based classifier. Dictionary had an accuracy of 51% compared to Deep learning's 75%.
