@@ -1,5 +1,5 @@
 # Results
-Both the sentiment analysers are validated against the actual ratings. The dictionary based classifier performed quite poorly compared to the deep learning model based classifier. It had an accuracy of 51% compared to Deep learning's 75%.
+Both the sentiment analysers were validated against the actual ratings. The dictionary based classifier performed quite poorly compared to the deep learning model based classifier. It had an accuracy of 51% compared to Deep learning's 75%.
 
 ## Visualising dataset
 ### Distribution of complete dataset
