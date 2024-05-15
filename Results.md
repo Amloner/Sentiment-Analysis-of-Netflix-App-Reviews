@@ -1,5 +1,6 @@
 # Results
-Both the sentiment analysers are validated against the actual ratings
+Both the sentiment analysers are validated against the actual ratings. The dictionary based classifier performed quite poorly compared to the deep learning model based classifier. It had an accuracy of 51% compared to Deep learning's 75%.
+
 ## Visualising dataset
 ### Distribution of complete dataset
 <img src="https://github.com/Amloner/Sentiment-Analysis-of-User-Reviews/assets/124287518/6a2f7ff2-21ef-4862-a405-f6a03481edc9" alt="image" width="400" height="auto">
@@ -47,6 +48,3 @@ Both the sentiment analysers are validated against the actual ratings
 | **accuracy**     | 0.7584444444444450  | 0.7584444444444450 | 0.7584444444444450 | 0.7584444444444450 |
 | **macro avg**    | 0.6266579666106730  | 0.6183333333333330 | 0.6185953204491930 | 4500.0             |
 | **weighted avg** | 0.7651814821333500  | 0.7584444444444450 | 0.7566823054905650 | 4500.0             |
-
-## Summary
-The dictionary based classifier performed quite poorly compared to the deep learning model based classifier. Dictionary had an accuracy of 51% compared to Deep learning's 75%.
