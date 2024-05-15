@@ -1,5 +1,5 @@
 # Results
-Both the sentiment ana
+Both the sentiment analysers are validated against the actual ratings
 ## Dictionary based classifer
 ### Count Plot
 ![countPlot](https://github.com/Amloner/Sentiment-Analysis-of-User-Reviews/assets/124287518/5d120772-657d-418a-9c76-5b540ef7c0b9)
