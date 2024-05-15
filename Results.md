@@ -1,5 +1,10 @@
 # Results
 Both the sentiment analysers are validated against the actual ratings
+## Visualising dataset
+### Distribution of complete dataset
+![Original_Dataset](https://github.com/Amloner/Sentiment-Analysis-of-User-Reviews/assets/124287518/6a2f7ff2-21ef-4862-a405-f6a03481edc9)
+### Distribution of smaller balanced dataset
+![Undersampled_dataset](https://github.com/Amloner/Sentiment-Analysis-of-User-Reviews/assets/124287518/7262350a-6794-4134-903e-34255231cb37)
 ## Dictionary based classifer
 ### Count Plot
 ![countPlot](https://github.com/Amloner/Sentiment-Analysis-of-User-Reviews/assets/124287518/5d120772-657d-418a-9c76-5b540ef7c0b9)
