@@ -32,12 +32,6 @@ The Netlifx review dataset can be downloaded from [here](https://www.kaggle.com/
    * Take a random sample of the reviews by selecting 100,000 reviews, this gives you a bigger representative corpus.
    * Export your corpora to two separate .csv files. Both of your tables should contain a column for the reviews and a column for the ratings.
 
-#### Distribution of entire reviews
-![Original_Dataset](https://github.com/Amloner/Sentiment-Analysis-of-User-Reviews/assets/124287518/6a2f7ff2-21ef-4862-a405-f6a03481edc9)
-
-#### Distribution of smaller balanced dataset
-![Undersampled_dataset](https://github.com/Amloner/Sentiment-Analysis-of-User-Reviews/assets/124287518/7262350a-6794-4134-903e-34255231cb37)
-
 ## Creating dictionary-based sentiment analyzer
    * Read the smaller balanced corpus.
    * Clean the data - remove linebreaks, digits, dates, etc.
