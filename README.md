@@ -23,9 +23,6 @@ The Netlifx review dataset can be downloaded from [here](https://www.kaggle.com/
 
 
 ## Creating Dataset
-
-### Workflow
-
    * Read the netflix app review data.
    * Create a plot of the ratings of the product. Study the distribution of the categories.
    * Take a random sample of the reviews by selecting 1500 reviews with rating 1, 500-500-500 reviews with ratings 2, 3, 4, and 1500 reviews with rating 5. This gives you a smaller balanced corpus.
