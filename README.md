@@ -15,7 +15,7 @@ The project consists of four steps
    * Creating a dictionary-based sentiment analyzer.
    * Creating neural network-based sentiment analyzers.
    * Evaluating both the sentiment analyzers.
-   * 
+     
 ### Dataset
 
 The Amazon review dataset can be downloaded from [here](https://www.kaggle.com/datasets/ashishkumarak/netflix-reviews-playstore-daily-updated?resource=download).
@@ -37,3 +37,20 @@ The Amazon review dataset can be downloaded from [here](https://www.kaggle.com/d
 
 #### Distribution of smaller balanced dataset
 ![Undersampled_dataset](https://github.com/Amloner/Sentiment-Analysis-of-User-Reviews/assets/124287518/7262350a-6794-4134-903e-34255231cb37)
+
+## Creating dictionary-based sentiment analyzer
+   * Read the smaller balanced corpus.
+   * Clean the data - remove linebreaks, digits, dates, etc.
+   * Perform leemmatization of the reviews
+   * Tokenize using TreebankWordTokenizer
+   * Perform sentiment analysis using wordnet
+
+## Creating neural network-based sentiment analyzer
+   * Read the smaller balanced corpus.
+   * Import pipeline from transformers library
+   * Download bertweet-sentiment-analysis model. [Model was chosen as it categorised text as POS, NEG, and NEU unlike most models which are binary]
+   * Analyse sentiment using the model
+
+## Evaluating both the sentiment analyzers.
+   * Visualise the performance of the models using confusion matrix and box plots.
+   * Use classification report from sklearn to evaluvate how the models have performed
