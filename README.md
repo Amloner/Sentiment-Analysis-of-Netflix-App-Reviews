@@ -1,4 +1,4 @@
-# Sentiment-Analysis-of-User-Reviews
+# Sentiment Analysis of Netflix App Reviews
 This project aims to analyse reviews of the Netflix application using NLP techniques. A rudimentary dictionary based model and an advanced deep learning model will be used to analyse and the performance of these models will be evaluvated.
 
 ### Techniques Employed
