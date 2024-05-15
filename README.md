@@ -18,7 +18,7 @@ The project consists of four steps
      
 ### Dataset
 
-The Amazon review dataset can be downloaded from [here](https://www.kaggle.com/datasets/ashishkumarak/netflix-reviews-playstore-daily-updated?resource=download).
+The Netlifx review dataset can be downloaded from [here](https://www.kaggle.com/datasets/ashishkumarak/netflix-reviews-playstore-daily-updated?resource=download).
 
 
 
@@ -47,6 +47,7 @@ The Amazon review dataset can be downloaded from [here](https://www.kaggle.com/d
 
 ## Creating neural network-based sentiment analyzer
    * Read the smaller balanced corpus.
+   * Truncate longer reviews.
    * Import pipeline from transformers library
    * Download bertweet-sentiment-analysis model. [Model was chosen as it categorised text as POS, NEG, and NEU unlike most models which are binary]
    * Analyse sentiment using the model
